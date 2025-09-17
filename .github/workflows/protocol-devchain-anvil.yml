@@ -93,7 +93,7 @@ jobs:
           echo "Pull Request Number: ${{ env.PR_NUMBER }}"
 
       - name: Install Foundry
-        uses: foundry-rs/foundry-toolchain@8f1998e9878d786675189ef566a2e4bf24869773
+        uses: foundry-rs/foundry-toolchain@93ffd8ab09c83738a1ea2482ca0432f7f95ef6f9
         with:
           version: 'v1.0.0'
 
